@@ -1,16 +1,19 @@
 <footer class="footer">
+  <div class="wrap">
+    <p class="footer__text">
+      {{ site.data.settings.footer_settings.footer_tagline }}
+    </p>
+    <p class="footer__copyright">
+      Support my work on <a href="www.patreon.com/gerardespona">Patreon </a>
+    </p>
 
-	<div class="wrap">
+    <div class="footer__copyright">
+      <span
+        >© {{ 'now' | date: "%Y" }} {{
+        site.data.settings.basic_settings.site_title }}</span
+      >
+    </div>
 
-		<p class="footer__text">{{ site.data.settings.footer_settings.footer_tagline }}</p>
-
-		<div class="footer__copyright">
-			<span>© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span>
-			<a href="https://jekyllthemes.io" target="_blank">Jekyll Themes</a>
-		</div>
-
-		{% include socials.html %}
-
-	</div>
-
+    {% include socials.html %}
+  </div>
 </footer>
