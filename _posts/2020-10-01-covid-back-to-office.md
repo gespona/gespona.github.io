@@ -4,7 +4,7 @@ subtitle: 'Why we need to go back to the office as soon as it is safe'
 date: 2020-10-01 10:00:00
 description: Right now in the middle of uncertainity it's kind of controversial topic. Let's write down some thoughts to review in the future with some perspective
 featured_image: '/images/office.jpg'
-tags: [Culture, Company, Leadership, Covid, WFH, Remote]
+tags: [Culture, Company, Leadership, Covid, WFH, Remote, SE]
 ---
 
 ## Work at home vs Living at office
